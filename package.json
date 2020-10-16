@@ -9,8 +9,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "build": "npm run build"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +27,8 @@
   },
   "homepage": "https://github.com/rachel-fischoff/simple-twitter-app#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "g": "^2.0.1",
+    "netlify-cli": "^2.65.6"
   }
 }
